@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+path {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.adorno-linea {
+    animation-name: animacion-linea;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion-linea {
+    50% {
+        fill: rgb(81, 51, 6);
+    }
+}
+
+.adorno-circulo {
+    animation-name: animacion-circulo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion-circulo {
+    25% {
+        fill: rgb(69, 71, 224);
+    }
+    50%{
+        fill: rgb(234, 81, 81);
+    }
+}
+
+#adorno-estrella{
+    transform-origin: center;
+    transform-box: fill-box;
+
+    animation-name: animacion-estrella;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animacion-estrella {
+    50%{
+        transform: scale(1.2);
+        fill: rgb(255, 191, 0);
+    }
+}
