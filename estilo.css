@@ -48,5 +48,7 @@ path {
     50%{
         transform: scale(1.2);
         fill: rgb(255, 191, 0);
+        stroke: red;
+        stroke-width: 4px;
     }
 }
